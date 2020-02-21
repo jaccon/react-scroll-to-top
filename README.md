@@ -1,4 +1,4 @@
-# react-scrolltop
+# react-scroll-to-top
 
 React component that adds a 'scroll to top' button fixed on the bottom of the page and shown if not scrolled up.
 

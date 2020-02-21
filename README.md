@@ -10,13 +10,13 @@ Install the package with either yarn or npm.
 With yarn:
 
 ```sh
-yarn add @jaccon/react-scrolltop
+yarn add @jaccon/react-scroll-to-top
 ```
 
 With npm:
 
 ```sh
-npm install --save @jaccon/react-scrolltop
+npm install --save @jaccon/react-scroll-to-top
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm install --save @jaccon/react-scrolltop
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ScrollTop from '@jaccon/react-scrolltop'
+import ScrollTop from '@jaccon/react-scroll-to-top'
 
 const App = () => (
   ...

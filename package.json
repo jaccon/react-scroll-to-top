@@ -1,0 +1,47 @@
+{
+  "name": "@nzambello/react-scrolltop",
+  "version": "0.1.2",
+  "description": "React component that adds a 'scroll to top' button.",
+  "main": "dist/react-scrolltop.js",
+  "repository": "https://github.com/nzambello/react-scrolltop",
+  "bugs": "https://github.com/nzambello/react-scrolltop/issues",
+  "author": "Nicola Zambello (github.com/nzambello)",
+  "homepage": "https://github.com/nzambello/react-scrolltop#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-react-app": "^5.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.15.1",
+    "prettier": "^1.18.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "style-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "peerDependencies": {},
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch --progress",
+    "prettier-all": "prettier --write '**/*.{js,json,css}'",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
